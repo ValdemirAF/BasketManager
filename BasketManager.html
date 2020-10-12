@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Basquete</title>
+    <link rel="stylesheet" href="BasketManager.css">
+</head>
+<body>
+    <header>
+        <h1>Resultados da Temporada</h1>
+    </header>
+    <p>
+        Placar do último jogo: <input type="text" name="score" id="txtscore" size="2">
+        <input type="button" value="Add jogo" onclick="addMatch()">
+    </p>
+    <section>
+        <table id='stable'>
+            <tr>
+                <th>Jogo</th>
+                <th>Placar</th>
+                <th>Min. Temporada</th>
+                <th>Máx. Temporada</th>
+                <th>Records Min.</th>
+                <th>Records Máx.</th>
+            </tr>
+            <tr></tr>
+        </table>
+    </section>
+
+    <footer>&copy; CriticalError</footer>
+
+    <script src="BasketManager.js"></script>
+</body>
+</html>
